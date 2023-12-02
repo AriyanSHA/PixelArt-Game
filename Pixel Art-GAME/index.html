@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Pixel Art</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" name="username" id ="username">
+            <button id="playButton">Play</button>
+        </form>
+        <details>
+            <summary>Rules of The Game</summary>
+            <p>
+                Simple!, Choose a color and create your own custom art by clicking on the cubes inside the table.
+            </p>
+        </details>
+    </div>
+    <div id="ingame">
+        <div id="pixelArtContainer"></div>
+        <h1 id="greetings">Hi, </h1>
+        <input type="color" id="pixelColor">
+        <table id="mainEditor"></table>
+        <button class="inGameButton" id="saveButton">Save</button>
+        <button class="inGameButton" id="newButton">New</button>
+        <button class="inGameButton" id="returnButton">Return</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

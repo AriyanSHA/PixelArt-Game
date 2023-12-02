@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+body{
+    background-color: darkslategrey;
+    color: rgb(38, 255, 0);
+    font-family: 'Pixelify Sans', sans-serif;
+}
+button{
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(38, 255, 0);
+    width: 100px;
+}
+button:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+button:active{
+    transform: scale(90%);
+    transition: transform 0.3s;
+}
+#menu{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu form{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 250px;
+    align-items: center;
+}
+#menu details{
+    margin-top: 25px;
+}
+#ingame{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pixelArtContainer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+#ingame #mainEditor {
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+}
+#ingame #mainEditor td{
+    border: 1px solid black;
+
+}
+.inGameButton{
+    margin-top: 10px;
+}
